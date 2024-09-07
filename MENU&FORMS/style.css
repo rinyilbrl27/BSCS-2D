@@ -1,0 +1,230 @@
+
+body{
+    background-color: rgb(6, 1, 1);
+    
+}
+.drippingsweets{
+    width: 750px;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+.milktea{
+    margin: 0%;
+    padding: 0%px;
+    color: rgb(255, 255, 255);
+    font-family: Verdana;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 8px;
+}
+.textmenu{
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(107, 106, 106);
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+  
+}
+
+.menu{
+    width: 100%;
+    background-color: rgb(227, 208, 231);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0%;
+    max-width: 750px;
+    border-radius: 10px;
+    background-image: url(https://static.wixstatic.com/media/ca940f_13070430cf224dd28e31c2fd796ef347~mv2.png/v1/crop/x_0,y_65,w_1122,h_1285/fill/w_295,h_338,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ca940f_13070430cf224dd28e31c2fd796ef347~mv2.png);
+
+}
+
+.tablemenu{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+table,th,td{
+    border: 2px rgb(255, 255, 255) solid;
+    width: 200;
+   
+}
+h2{
+    margin: auto;
+    font-style: inherit;
+    background-color: rgb(254, 255, 255);
+}
+h3{
+    font-weight: 500;
+
+    
+
+}
+.product{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.price-large{
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+li{
+    list-style: none;
+
+}
+
+.location-num{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.hr-menu{
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 730px;
+}
+
+
+
+.registration-form{
+    width: 100%;
+    background-color: rgb(208, 158, 122);
+    background-image: url(https://st3.depositphotos.com/13780816/16261/v/450/depositphotos_162614324-stock-illustration-waffle-background-wafer-seamless-pattern.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0%;
+    max-width: 750px;
+    border-radius: 10px;
+}
+
+
+
+h1{
+    margin: 0%;
+    padding: 0%px;
+    color: rgb(86, 59, 22);
+    font-family: Verdana;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+  
+.form {
+    max-width: 600px;
+    margin: auto;
+    background-color:rgb(255, 243, 218);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-indent: 0px;
+
+    margin-left: 65px;
+    margin-right: 65px;
+
+    margin-bottom: 0px;
+
+    border: 3px solid #935414;
+
+    
+    
+    
+    
+}
+
+.fillup-form label {
+    font-weight: bolder;
+    margin-top: 5px;
+    display: block;
+    color: #9a733c;
+    margin-bottom: 0px;
+    font-size: 20px;
+    
+   
+}
+
+.fillup-form input[type="text"],
+.fillup-form input[type="email"],
+.fillup-form input[type="tel"],
+.fillup-form input[type="number"],
+.fillup-form textarea,
+.fillup-form select {
+    width: 96%;
+    padding: 10px;
+    margin-top: 2px;
+    margin-bottom:2px;
+    border: 3px solid #935414;
+    border-radius: 10px;
+    font-size: 15px;
+    
+    
+    
+}
+
+
+.fillup-form textarea {
+    resize: vertical;
+    min-height: 10px;
+}
+
+.fillup-form select {
+    width: 100%;
+}
+
+.fillup-form input:focus,.fillup-form textarea:focus,.fillup-form select:focus {
+    border-color: #987746;
+    box-shadow: 0 0 5px rgba(154, 112, 4, 0.5);
+    outline: none;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.submit{
+    height: 40px;
+    width: 110px;
+    color: rgb(97, 70, 26);
+    background-color: rgb(255, 230, 192);
+    border-color: rgb(72, 45, 10);
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bolder;
+    margin-left: 0px;
+    
+
+}
+
+.follow-us{
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.icons ion-icon{
+    margin-left: 1%;
+    color: black;
+    margin-right: 1px;
+    font-size: 40px ;
+    transition: .4s ease;
+    padding-left: 27px;
+    
+    
+}
+.icons ion-icon:hover{
+    color:  rgb(31, 106, 163);
+}
