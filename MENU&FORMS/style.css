@@ -4,7 +4,7 @@ body{
     
 }
 .drippingsweets{
-    width: 750px;
+    width: 100%;
     border-radius: 10px;
     opacity: 0.9;
 }
@@ -21,12 +21,15 @@ body{
     letter-spacing: 8px;
 }
 
+
+
 .textmenu{
     text-align: center;
     font-size: xx-large;
     color: rgb(107, 106, 106);
     margin-top: 0px;
     margin-bottom: 0px;
+    table-layout: fixed;
 }
 
 .menu{
@@ -34,12 +37,11 @@ body{
     background-color: rgb(227, 208, 231);
     margin-left: auto;
     margin-right: auto;
-    padding: 0%;
     max-width: 750px;
     border-radius: 10px;
     background-image: url(https://static.wixstatic.com/media/ca940f_13070430cf224dd28e31c2fd796ef347~mv2.png/v1/crop/x_0,y_65,w_1122,h_1285/fill/w_295,h_338,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ca940f_13070430cf224dd28e31c2fd796ef347~mv2.png);
-
 }
+
 
 .tablemenu{
     width: 95%;
@@ -51,8 +53,10 @@ body{
 table,th,td{
     border: 2px rgb(255, 255, 255) solid;
     width: 200;
-}
+    position: relative;
+    
 
+}
 h2{
     margin: auto;
     font-style: inherit;
@@ -66,6 +70,7 @@ h3{
 .product{
     padding-left: 25px;
     padding-right: 25px;
+
 }
 
 .price-large{
@@ -96,14 +101,11 @@ li{
     background-image: url(https://st3.depositphotos.com/13780816/16261/v/450/depositphotos_162614324-stock-illustration-waffle-background-wafer-seamless-pattern.jpg);
     margin-left: auto;
     margin-right: auto;
-    padding: 0%;
     max-width: 750px;
     border-radius: 10px;
 }
 
 h1{
-    margin: 0%;
-    padding: 0%px;
     color: rgb(86, 59, 22);
     font-family: Verdana;
     font-style: italic;
