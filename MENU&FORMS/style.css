@@ -141,6 +141,8 @@ h1{
 .fillup-form input[type="email"],
 .fillup-form input[type="tel"],
 .fillup-form input[type="number"],
+.fillup-form input[type="file"],
+.fillup-form input[type="date"],
 .fillup-form textarea,
 .fillup-form select {
     width: 96%;
@@ -150,6 +152,8 @@ h1{
     border: 3px solid #935414;
     border-radius: 10px;
     font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .fillup-form input[type="submit"]{
@@ -177,11 +181,15 @@ h1{
     width: 100%;
 }
 
-.fillup-form input:focus,.fillup-form textarea:focus,.fillup-form select:focus {
+.fillup-form input,
+.fillup-form textarea,
+.fillup-form select {
     border-color: #987746;
     box-shadow: 0 0 5px rgba(154, 112, 4, 0.5);
     outline: none;
 }
+
+
 
 .form-group {
     margin-bottom: 15px;
