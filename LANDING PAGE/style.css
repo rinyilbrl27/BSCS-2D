@@ -44,6 +44,11 @@ nav {
     color: #ccc;
     }
 
+    .icons{
+        filter: invert(1);
+
+    }
+
     h1{
         font-family:system-ui,'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
         text-align: center;
@@ -126,20 +131,24 @@ nav {
         justify-content: space-around;
         margin-top: 5px; 
         }
-        .btn-2 {
-            font-size: 16px;
-            color: #fff;
-            height: 35px;
-            width: 8%;
-            margin: 5px;
-            border-radius: 50px;
-            border: 0px;
-            box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.15);
-           background:  linear-gradient(160deg,rgb(225, 224, 224), #59defc, #05afd5, rgb(0, 92, 138)) ;
-        }
-        .btn-2:hover{
-            background: linear-gradient(160deg,rgb(220, 220, 220), #4abbd4, #059abc, rgb(0, 99, 148));
-        }
+.btn-2 {
+  font-size: 20px;
+  color: #fff;
+  height: 38px;
+  width: 8%;
+  margin: 5px;
+  border-radius: 50px;
+  border: 0px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(160deg, rgb(225, 224, 224), #59defc, #05afd5, rgb(0, 92, 138));
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-2:hover {
+    background: linear-gradient(160deg, rgb(220, 220, 220), #4abbd4, #059abc, rgb(0, 99, 148));
+  }
 
 .center-image {
     display: block;
@@ -226,6 +235,7 @@ footer {
         }
         
         .copyright {
+            margin-top: 0%;
         font-size: 14px;
         text-align: center;
         color: white;
