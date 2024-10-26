@@ -7,7 +7,7 @@ body::-webkit-scrollbar {
 nav {
     display: flex;
     align-items: center;
-    background: linear-gradient(140deg,#34afd5, #02a0bc);
+    background: linear-gradient(140deg,#2192b5, #2adfff);
     padding: 1em;
     width: 1505px;
     margin: 0px;
@@ -43,7 +43,7 @@ nav {
     nav a:hover {
     color: #ccc;
     }
-    
+
     h1{
         font-family:system-ui,'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
         text-align: center;
@@ -253,7 +253,7 @@ footer {
     .Sale{
         display: flex;
         align-items: center;
-        background: linear-gradient(140deg,#45044f, #b25f00);
+        background: linear-gradient(140deg,#45044f, #ff8e0d);
         padding: 1em;
         width: 1505px;
         margin: 0px;
@@ -917,7 +917,7 @@ footer {
 .About{
     display: flex;
     align-items: center;
-    background: linear-gradient(140deg, rgb(0, 113, 169),#059abc);
+    background: linear-gradient(140deg, rgb(0, 113, 169),#0ac0e9);
     padding: 1em;
     width: 1505px;
     margin: 0px;
@@ -1097,7 +1097,7 @@ table,th,tr,td{
 .creators{
         display: flex;
         align-items: center;
-        background: linear-gradient(140deg, #444444,#757575);
+        background: linear-gradient(140deg, #444444,#a9a9a9);
         padding: 1em;
         width: 1505px;
         margin: 0px;
