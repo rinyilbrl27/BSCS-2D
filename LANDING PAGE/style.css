@@ -713,11 +713,11 @@ footer {
     }
 
 .KOI {
-    background: linear-gradient(0deg,#f4ffab,rgb(255, 255, 134), #ffdd02);
+    background: linear-gradient(0deg,rgb(255, 255, 255), #ffdd02);
     width: 1537px;
 }
 .TREK{
-    background: linear-gradient(0deg,rgb(255, 218, 175),rgb(255, 208, 120), rgb(255, 159, 104));
+    background: linear-gradient(0deg,rgb(255, 255, 255), rgb(255, 159, 104));
     width: 1537px;
 }
 .AURORA{
