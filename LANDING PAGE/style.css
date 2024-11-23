@@ -1026,38 +1026,54 @@ button {
 button:hover{
     background: gray;
 }
-#output{
-    width: 51.5%;
-    font-size: 18px;
-    margin-top: 0px;
-    background-color: #ffffff;
-    padding: 5px;
-    border-radius: 10px;
-    margin-left:   auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    border: 3px solid rgb(255, 255, 255);
-    border-style: dashed;
-}
-#output:hover{
-    border: 3px solid rgb(136, 136, 136);
-    border-style: dashed;
-    cursor: pointer;
-    margin-left:   auto;
-    margin-right: auto;
-    margin-bottom: 20px;
 
-}
-
-table,th,tr,td{
-    border: 1px solid rgb(136, 136, 136);    
-    border-style: dotted;    
-    border-radius: 3px;
-    }
-
-
-
-
+#output {
+  width: 51.5%;
+  font-size: 18px;
+  margin: 20px auto 0;
+  background-color: #FFFFFF;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 3px solid #FFF;
+  border-style: dashed;
+  margin-bottom: 20px;
+  }
+  
+  #output:hover {
+  border-color: #c9c9c9;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  Table Style
+  
+  table {
+  width: 100%;
+  border-collapse: collapse;
+  }
+  
+  th, td {
+  border: 1px solid #888888;
+  border-style: dotted;
+  border-radius: 3px;
+  padding: 8px;
+  text-align: left;
+  }
+  
+  th {
+  background-color: #F7F7F7;
+  font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+  background-color: #F9F9F9;
+  }
+  
+  tr:hover {
+  background-color: #E5E5E5;
+  }
+  
 
 
 
