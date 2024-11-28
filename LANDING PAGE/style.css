@@ -251,7 +251,70 @@ footer {
         border-style: dashed;
         }
         
-        
+
+.whats-new {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  height: 500px; 
+  margin-bottom: 10px; 
+}
+
+.whats-new-container {
+  display: flex;
+  width: 1400px;
+  background: #ffffff;
+  border-radius: 15px; 
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  margin: 0 auto; 
+}
+
+.left {
+  flex: 1;
+  padding: 30px; 
+  background: #f0f0f0;
+}
+
+.left h1 {
+  margin-bottom: 15px; 
+  font-size: 32px;
+  color: #333;
+}
+
+.left p {
+  font-size: 18px;
+  line-height: 1.75; 
+  color: #555;
+}
+
+.right {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background: #eaeaea;
+}
+
+.image-scroll {
+  display: flex;
+  gap: 15px; 
+  overflow-x: auto;
+  padding: 30px; 
+}
+
+.image-scroll img {
+  height: 300px; 
+  border-radius: 15px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+  transition: transform 0.3s; 
+}
+
+.image-scroll img:hover {
+  transform: scale(1.1); 
+}
+
+
     .Sale{
         display: flex;
         align-items: center;
