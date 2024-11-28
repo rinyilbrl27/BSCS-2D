@@ -1084,8 +1084,10 @@ button:hover{
 
 
 
-.members-container{
-    width: 1537px;
+.members-container {
+  max-width: 1537px;
+  margin: 0 auto;
+  padding: 1em;
 }
 .creators{
         display: flex;
@@ -1122,61 +1124,71 @@ button:hover{
         color: #ccc;
         }
 
-        .members{
-            border: 2px rgb(171, 171, 171) solid;
-            border-style: dashed;
-            width: 1000px;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 10px;
-            border-radius: 20px;
-            background-color: rgb(235, 235, 235);
-            margin-bottom: 10px;
- 
-        }
-        .meet-our-members{
-            margin-top: 10px;
-            color: rgb(66, 66, 66);
-        }
-        .profile img{
-            margin-left: 400px;
-            margin-right: 400px;
-            border: 1px black solid;
-            border-radius: 20px;
-        }
-        .description{
-            color: black;
-            text-align:center;
-            font-family:'Trebuchet MS';
-            font-size: 20px;
-            word-spacing: 0px;
-            width: 900px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .follow-us{
-        font-family:system-ui,'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-        text-align: center;
-        font-size: 22px;
-        color: #3e3d3d;
-        }
-        .social-icons-creators {
-        display: flex;
-        justify-content: space-between;
-        width: 250px;
-        margin-bottom: 20px;
-        font-size: 45px;
-        margin-left:  auto;
-        margin-right: auto;
-        }
-        
-        .social-icons-creators a {
-        color: #535353;
-        transition: color 0.3s;
-        }
-        
-        .social-icons-creators a:hover {
-        color: #ccc;
-        }
-   
+.members {
+  border: 2px dashed #ababab;
+  margin: 20px auto;
+  max-width: 1000px;
+  border-radius: 20px;
+  background-color: #ebebeb;
+  padding: 1em;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.meet-our-members {
+  margin-top: 20px;
+  color: #424242;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+}
+
+.profile img {
+  display: block;
+  margin: 20px auto;
+  border: 2px solid #000;
+  border-radius: 20px;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.description {
+  color: #333;
+  text-align: center;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  width: 90%;
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+.follow-us {
+  font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #3e3d3d;
+  margin-top: 20px;
+}
+
+.social-icons-creators {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  font-size: 2rem;
+  margin: 20px auto;
+  color: #424242;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.social-icons-creators a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.social-icons-creators a:hover {
+  color: #666;
+  transform: scale(1.2);
+}
+
 
