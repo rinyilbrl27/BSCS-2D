@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="addtocart.css">
+</head>
+<body>
+    <div class="AquaFlask">
+        <nav class="AddtoCart">
+          <img class="AquaImg" src="img/Aquaflask-Logo-1024x240.png" alt="Aqua Image" />
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Sale.html">Sale</a></li>
+            <li><a href="addtocart.html">Shop</a></li>
+            <li><a href="Bottles.html">Bottles</a></li>
+            <li><a href="About Us.html">About Us</a></li>
+            <li><a href="Contact Us.html">Contact Us</a></li>
+            <li><a href="Creators.html">Creators</a></li>
+            <li>
+              <a href="https://www.facebook.com/AquaFlaskPhOfficial" target="blank"><img class="icons"
+                  src="img/logo-facebook.svg" width="25px" /></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/aquaflask.ph/" target="blank"><img class="icons"
+                  src="img/logo-instagram.svg" width="25px" /></a>
+            </li>
+            <li>
+              <a href="https://x.com/aquaflask.ph/" target="blank"><img class="icons" src="img/logo-twitter.svg"
+                  width="25px" /></a>
+            </li>
+            <li>
+              <a href="https://www.tiktok.com/@aquaflask.ph" target="blank"><img class="icons" src="img/logo-tiktok.svg"
+                  width="25px" /></a>
+            </li>
+            <li>
+              <a href="https://ph.pinterest.com/AquaFlask/" target="blank"><img class="icons" src="img/logo-pinterest.svg"
+                  width="25px" /></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <img src="img/why choose AquaFlask.webp" width="1537px" />
+    <div class="container">
+        <h1>Buy Best Water Bottles Online in The Philippines</h1>
+
+        <nav class="my-shopping-cart">
+            <button onclick="showSection('products-section')"><img src="img/bag-outline.svg" width="50px"></button>
+            <button onclick="showSection('cart-section')"><img src="img/cart-outline.svg" width="50px"></button>
+        </nav>
+
+        <div id="products-section" class="section active">
+            <h1 class="bottles">14oz Water Bottles</h1>
+            <div class="products">
+                <div class="product">
+                    <img src="img/14oz 1.jpg" alt="Product 1" class="product-image">
+                    <span class="product-name">Vaccum Insolated Mug 14oz</span>
+                    <span class="product-price">₱800.00</span>
+                    <button class="add-to-cart" data-name="Vaccum Insolated Mug 14oz" data-price="800">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/14oz 2.jpg" alt="Product 2" class="product-image">
+                    <span class="product-name">Kids1NewColors Collections 14oz</span>
+                    <span class="product-price">₱800.00</span>
+                    <button class="add-to-cart" data-name="Kids1NewColors Collections 14oz" data-price="800">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/14oz 3.jpg" alt="Product 3" class="product-image">
+                    <span class="product-name">Kids 1 v2 Collections 14oz</span>
+                    <span class="product-price">₱800.00</span>
+                    <button class="add-to-cart" data-name="Kids 1 v2 Collections 14oz" data-price="800">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/14oz 4.jpg" alt="Product 4" class="product-image">
+                    <span class="product-name">IL Terazzo Colections 14oz</span>
+                    <span class="product-price">₱800.00</span>
+                    <button class="add-to-cart" data-name="IL Terazzo Colections 14oz" data-price="800">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="products">
+                <div class="product">
+                    <img src="img/14oz 5.jpg" alt="Product 5" class="product-image">
+                    <span class="product-name">Stellar Collections 14oz</span>
+                    <span class="product-price">₱830.00</span>
+                    <button class="add-to-cart" data-name="Stellar Collections 14oz" data-price="830">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/14oz 6.jpg" alt="Product 6" class="product-image">
+                    <span class="product-name">Kids Collections 14oz</span>
+                    <span class="product-price">₱830.00</span>
+                    <button class="add-to-cart" data-name="Kids Collections 14oz" data-price="830">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/14oz 7.jpg" alt="Product 7" class="product-image">
+                    <span class="product-name">Dream Collections 14oz</span>
+                    <span class="product-price">₱830.00</span>
+                    <button class="add-to-cart" data-name="Dream Collections 14oz" data-price="830">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/14oz 8.webp" alt="Product 8" class="product-image">
+                    <span class="product-name">Original Collections 14oz</span>
+                    <span class="product-price">₱830.00</span>
+                    <button class="add-to-cart" data-name="Original Collections 14oz" data-price="830">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+            </div>
+            <h1 class="bottles">18oz Water Bottles</h1>
+            <div class="products">
+                <div class="product">
+                    <img src="img/18oz 1.jpg" alt="Product 9" class="product-image">
+                    <span class="product-name">Metropolis Collection 18oz</span>
+                    <span class="product-price">₱910.00</span>
+                    <button class="add-to-cart" data-name="Metropolis Collection 18oz" data-price="910">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/18oz 2.jpg" alt="Product 6" class="product-image">
+                    <span class="product-name">Kids1NewColors Collections 18oz</span>
+                    <span class="product-price">₱920.00</span>
+                    <button class="add-to-cart" data-name="Kids1NewColors Collections 18oz" data-price="920">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/18oz 3.jpg" alt="Product 7" class="product-image">
+                    <span class="product-name">Kids 1 v2 Collections 18oz</span>
+                    <span class="product-price">₱930.00</span>
+                    <button class="add-to-cart" data-name="Kids 1 v2 Collections 18oz" data-price="930">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/18oz 4.jpg" alt="Product 8" class="product-image">
+                    <span class="product-name">Sip 2 Colections 18oz</span>
+                    <span class="product-price">₱930.00</span>
+                    <button class="add-to-cart" data-name="Sip 2 Colections 18oz" data-price="930">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+            </div>
+            <div class="products">
+                <div class="product">
+                    <img src="img/18oz 5.jpg" alt="Product 9" class="product-image">
+                    <span class="product-name">Koi Collections 18oz</span>
+                    <span class="product-price">₱910.00</span>
+                    <button class="add-to-cart" data-name="Koi Collections 18oz" data-price="910">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/18oz 6.jpg" alt="Product 6" class="product-image">
+                    <span class="product-name">IL Terazzo Collections 18oz</span>
+                    <span class="product-price">₱910.00</span>
+                    <button class="add-to-cart" data-name="IL Terazzo Collections 18oz" data-price="910">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/18oz 7.jpg" alt="Product 7" class="product-image">
+                    <span class="product-name">Cylinder Collections 18oz</span>
+                    <span class="product-price">₱900.00</span>
+                    <button class="add-to-cart" data-name="Cylinder Collections 18oz" data-price="900">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/18oz 8.jpg" alt="Product 8" class="product-image">
+                    <span class="product-name">Aurora Colections 18oz</span>
+                    <span class="product-price">₱900.00</span>
+                    <button class="add-to-cart" data-name="Aurora Colections 18oz" data-price="900">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+            </div>
+            <div class="products">
+                <div class="product">
+                    <img src="img/18oz 9.jpg" alt="Product 9" class="product-image">
+                    <span class="product-name">Sweet Harvest Collections 18oz</span>
+                    <span class="product-price">₱900.00</span>
+                    <button class="add-to-cart" data-name="Sweet Harvest Collections 18oz" data-price="900">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/18oz 10.jpg" alt="Product 6" class="product-image">
+                    <span class="product-name">Earth Collections 18oz</span>
+                    <span class="product-price">₱900.00</span>
+                    <button class="add-to-cart" data-name="Earth Collections 18oz" data-price="900">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/18oz 11.jpg" alt="Product 7" class="product-image">
+                    <span class="product-name">Stellar Collections 18oz</span>
+                    <span class="product-price">₱900.00</span>
+                    <button class="add-to-cart" data-name="Stellar Collections 18oz" data-price="900">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/180z 12.jpg" alt="Product 8" class="product-image">
+                    <span class="product-name">Sakura Collections 18oz</span>
+                    <span class="product-price">₱900.00</span>
+                    <button class="add-to-cart" data-name="Sakura Collections 18oz" data-price="900">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+            </div>
+            
+            <h1 class="bottles">22oz Water Bottles</h1>
+            <div class="products">
+                <div class="product">
+                    <img src="img/22oz 1.jpg" alt="Product 9" class="product-image">
+                    <span class="product-name">Metropolis Collections 22oz</span>
+                    <span class="product-price">₱950.00</span>
+                    <button class="add-to-cart" data-name="Metropolis Collections 22oz" data-price="950">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/22oz 2.jpg" alt="Product 6" class="product-image">
+                    <span class="product-name">Koi Collections 22oz</span>
+                    <span class="product-price">₱950.00</span>
+                    <button class="add-to-cart" data-name="Koi Collections 22oz" data-price="950">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/22oz 3.jpg" alt="Product 7" class="product-image">
+                    <span class="product-name">IL Terazzo Collections 22oz</span>
+                    <span class="product-price">₱950.00</span>
+                    <button class="add-to-cart" data-name="IL Terazzo Collections 22oz" data-price="950">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/22oz 4.png" alt="Product 8" class="product-image">
+                    <span class="product-name">Aurora Colections 22oz</span>
+                    <span class="product-price">₱950.00</span>
+                    <button class="add-to-cart" data-name="Aurora Colections 22oz" data-price="950">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+            </div>
+            <div class="products">
+                <div class="product">
+                    <img src="img/22oz 5.jpg" alt="Product 9" class="product-image">
+                    <span class="product-name">Sweet Harvest Collections 22oz</span>
+                    <span class="product-price">₱950.00</span>
+                    <button class="add-to-cart" data-name="Sweet Harvest Collections 22oz" data-price="950">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/22oz 6.jpg" alt="Product 6" class="product-image">
+                    <span class="product-name">Neon Collections 22oz</span>
+                    <span class="product-price">₱950.00</span>
+                    <button class="add-to-cart" data-name="Neon Collections 22oz" data-price="950">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/22oz 7.jpg" alt="Product 7" class="product-image">
+                    <span class="product-name">Earth Collections 22oz</span>
+                    <span class="product-price">₱950.00</span>
+                    <button class="add-to-cart" data-name="Earth Collections 22oz" data-price="950">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/22oz 8.jpg" alt="Product 8" class="product-image">
+                    <span class="product-name">Dream Colections 18oz</span>
+                    <span class="product-price">₱950.00</span>
+                    <button class="add-to-cart" data-name="Dream Colections 18oz" data-price="950">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+            </div>
+
+            <h1 class="bottles">32oz Water Bottles</h1>
+            <div class="products">
+                <div class="product">
+                    <img src="img/32oz 1.jpg" alt="Product 9" class="product-image">
+                    <span class="product-name">Metropolis Collections 32oz</span>
+                    <span class="product-price">₱980.00</span>
+                    <button class="add-to-cart" data-name="Metropolis Collections 32oz" data-price="980">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/32oz 2.png" alt="Product 6" class="product-image">
+                    <span class="product-name">Trek Collections 32oz</span>
+                    <span class="product-price">₱980.00</span>
+                    <button class="add-to-cart" data-name="Trek Collections 32oz" data-price="980">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/32oz 3.jpg" alt="Product 7" class="product-image">
+                    <span class="product-name">Aurora Collections 32oz</span>
+                    <span class="product-price">₱980.00</span>
+                    <button class="add-to-cart" data-name="Aurora Collections 32oz" data-price="980">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/32oz 4.jpg" alt="Product 8" class="product-image">
+                    <span class="product-name">Sweet Harvest Colections 32oz</span>
+                    <span class="product-price">₱980.00</span>
+                    <button class="add-to-cart" data-name="Sweet Harvest Colections 32oz" data-price="980">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+            </div>
+            <div class="products">
+                <div class="product">
+                    <img src="img/32oz 5.jpg" alt="Product 9" class="product-image">
+                    <span class="product-name">Neon Collections 32oz</span>
+                    <span class="product-price">₱980.00</span>
+                    <button class="add-to-cart" data-name="Neon Collections 32oz" data-price="980">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/32oz 6.jpg" alt="Product 6" class="product-image">
+                    <span class="product-name">Earth Collections 32oz</span>
+                    <span class="product-price">₱980.00</span>
+                    <button class="add-to-cart" data-name="Earth Collections 32oz" data-price="9880">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/32oz 7.jpg" alt="Product 7" class="product-image">
+                    <span class="product-name">Stellar Collections 32oz</span>
+                    <span class="product-price">₱980.00</span>
+                    <button class="add-to-cart" data-name="Stellar Collections 32oz" data-price="980">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/32oz 8.jpg" alt="Product 8" class="product-image">
+                    <span class="product-name">Dream Colections 32oz</span>
+                    <span class="product-price">₱980.00</span>
+                    <button class="add-to-cart" data-name="Dream Colections 32oz" data-price="980">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+            </div>
+            
+            <h1 class="bottles">40oz Water Bottles</h1>
+            <div class="products">
+                <div class="product">
+                    <img src="img/40oz 1.jpg" alt="Product 9" class="product-image">
+                    <span class="product-name">Sakura Collection 40oz</span>
+                    <span class="product-price">₱1000.00</span>
+                    <button class="add-to-cart" data-name="Sakura Collection 40oz" data-price="1000">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/40oz 2.jpg" alt="Product 6" class="product-image">
+                    <span class="product-name">Metropolis Collections 40oz</span>
+                    <span class="product-price">₱1000.00</span>
+                    <button class="add-to-cart" data-name="Metropolis Collections 40oz" data-price="1000">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/40oz 3.jpg" alt="Product 7" class="product-image">
+                    <span class="product-name">Koi Collections 40oz</span>
+                    <span class="product-price">₱1000.00</span>
+                    <button class="add-to-cart" data-name="Koi Collections 40oz" data-price="1000">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/40oz 4.jpg" alt="Product 8" class="product-image">
+                    <span class="product-name">IL Terazzo Colections 40oz</span>
+                    <span class="product-price">₱1000.00</span>
+                    <button class="add-to-cart" data-name="IL Terazzo Colections 40oz" data-price="1000">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+            </div>
+            <div class="products">
+                <div class="product">
+                    <img src="img/40oz 5.png" alt="Product 9" class="product-image">
+                    <span class="product-name">Trek Collections 40oz</span>
+                    <span class="product-price">₱1000.00</span>
+                    <button class="add-to-cart" data-name="Trek Collections 40oz" data-price="1000">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/40oz 6.jpg" alt="Product 6" class="product-image">
+                    <span class="product-name">Aurora Collections 40oz</span>
+                    <span class="product-price">₱1000.00</span>
+                    <button class="add-to-cart" data-name="Aurora Collections 40oz" data-price="1000">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/40oz 7.jpg" alt="Product 7" class="product-image">
+                    <span class="product-name">Sweet Harvest Collections 40oz</span>
+                    <span class="product-price">₱1000.00</span>
+                    <button class="add-to-cart" data-name="Sweet Harvest Collections 40oz" data-price="1000">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/40oz 8.jpg" alt="Product 8" class="product-image">
+                    <span class="product-name">Neon Colections 40oz</span>
+                    <span class="product-price">₱1000.00</span>
+                    <button class="add-to-cart" data-name="Neon Colections 40oz" data-price="1000">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+            </div>
+            <div class="products">
+                <div class="product">
+                    <img src="img/40oz 9.jpg" alt="Product 9" class="product-image">
+                    <span class="product-name">Earth Collections 40oz</span>
+                    <span class="product-price">₱1000.00</span>
+                    <button class="add-to-cart" data-name="Earth Collections 40oz" data-price="1000">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/40oz 10.jpg" alt="Product 6" class="product-image">
+                    <span class="product-name">Stellar Collections 40oz</span>
+                    <span class="product-price">₱1000.00</span>
+                    <button class="add-to-cart" data-name="Stellar Collections 40oz" data-price="1000">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/40oz 11.jpg" alt="Product 7" class="product-image">
+                    <span class="product-name">Dream Collections 40oz</span>
+                    <span class="product-price">₱1000.00</span>
+                    <button class="add-to-cart" data-name="Dream Collections 40oz" data-price="1000">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/40oz 12.png" alt="Product 8" class="product-image">
+                    <span class="product-name">Original Collections 40oz</span>
+                    <span class="product-price">₱1000.00</span>
+                    <button class="add-to-cart" data-name="Sakura Collections 40oz" data-price="1000">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+            </div>
+
+            <h1 class="bottles">64oz/84oz Water Bottles</h1>
+            <div class="products">
+                <div class="product">
+                    <img src="img/640z 1.jpg" alt="Product 9" class="product-image">
+                    <span class="product-name">Neon Collections 64oz</span>
+                    <span class="product-price">₱1400.00</span>
+                    <button class="add-to-cart" data-name="Neon Collections 64oz" data-price="1400">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/64oz 2.jpg" alt="Product 6" class="product-image">
+                    <span class="product-name">Growler Collections 64oz</span>
+                    <span class="product-price">₱1400.00</span>
+                    <button class="add-to-cart" data-name="Growler Collections 64oz" data-price="1400">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/84oz 1.png" alt="Product 7" class="product-image">
+                    <span class="product-name">Growler 84oz</span>
+                    <span class="product-price">₱1400.00</span>
+                    <button class="add-to-cart" data-name="Growler 84oz" data-price="1400">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/128oz 1.png" alt="Product 8" class="product-image">
+                    <span class="product-name">Original Collections 128oz</span>
+                    <span class="product-price">₱1500.00</span>
+                    <button class="add-to-cart" data-name="Original Collections 128oz" data-price="1500">Add to Cart
+                        <span class="notification">Added!</span>
+                    </button>
+                </div>
+            </div>
+            
+        </div>
+
+        <div id="cart-section" class="section">
+            <div class="cart">
+                <h2>Your Cart</h2>
+                <ul class="cart-items">
+                </ul>
+                <div class="cart-total">Total: ₱0.00</div>
+                <a href="Contact Us.html" class="checkout">Checkout</a>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer-content">
+          <img src="img/Aquaflask-Logo-1024x240.png" alt="Logo" class="footer-logo" />
+  
+          <nav class="nav-footer">
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="Sale.html">SALE</a></li>
+              <li><a href="addtocart.html">SHOP</a></li>
+              <li><a href="Bottles.html">BOTTLES</a></li>
+              <li><a href="About Us.html">ABOUT US</a></li>
+              <li><a href="Contact Us.html">CONTACT US</a></li>
+              <li><a href="Creators.html">CREATORS</a></li>
+            </ul>
+          </nav>
+          <br />
+  
+          <p class="italic"><i>#ReadyForAnything #EndlessExplorations</i></p>
+          <br />
+  
+          <div class="social-icons">
+            <a href="https://www.facebook.com/AquaFlaskPhOfficial" target="blank"><img class="icons"
+                src="img/logo-facebook.svg" width="35px" /></a>
+            <a href="https://www.instagram.com/aquaflask.ph/" target="blank"><img class="icons"
+                src="img/logo-instagram.svg" width="35px" /></a>
+            <a href="https://x.com/aquaflask.ph/" target="blank"><img class="icons" src="img/logo-twitter.svg"
+                width="35px" /></a>
+            <a href="https://www.tiktok.com/@aquaflask.ph" target="blank"><img class="icons" src="img/logo-tiktok.svg"
+                width="35px" /></a>
+            <a href="https://ph.pinterest.com/AquaFlask/" target="blank"><img class="icons" src="img/logo-pinterest.svg"
+                width="35px" /></a>
+          </div>
+          <p class="copyright">All Rights Reserved @ 2024 AquaFlask</p>
+        </div>
+      </footer>
+    <script src="addtocart.js"></script>
+</body>
+</html>
