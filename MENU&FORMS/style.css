@@ -33,7 +33,7 @@ body{
 }
 
 .menu{
-    width: 100%;
+    width: 1000px;
     background-color: rgb(227, 208, 231);
     margin-left: auto;
     margin-right: auto;
@@ -44,7 +44,7 @@ body{
 
 
 .tablemenu{
-    width: 95%;
+    width: 725px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px;
@@ -96,7 +96,7 @@ li{
 }
 
 .registration-form{
-    width: 100%;
+    width: 1000px;
     background-color: rgb(208, 158, 122);
     background-image: url(https://st3.depositphotos.com/13780816/16261/v/450/depositphotos_162614324-stock-illustration-waffle-background-wafer-seamless-pattern.jpg);
     margin-left: auto;
