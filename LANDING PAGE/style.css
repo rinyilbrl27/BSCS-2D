@@ -777,7 +777,7 @@ input[type="password"] {
 }
 
 .sign-up-container {
-  width: 100%;
+  width: 1000px;
   display: flex;
   max-width: 1000px;
   background: #ffffff;
